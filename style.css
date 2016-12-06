@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+.content a {
+    display: block;
+    color:red;
+    height: 100%;
+    width: 100%;
+}
+input{
+    border-radius: 10px;
+    border:0px;
+}
+.input {
+    width: 90%;
+    height: 70%;
+    background-color: aqua;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 0px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+div {
+    position:absolute;
+    border-radius: 10px;
+}
+li {
+
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+#menu {
+    text-align:left;
+    background: rgba(0, 0, 0, 0.6);
+    top: 8%;
+    left: 12.5%;
+    width: 75%;
+    height: 7%;
+}
+.pmenu li {
+    display: inline;
+    margin: 1.5%;
+    color:white;
+}
+
+.page li {
+    text-align: center;
+    display: inline-block;
+    margin: 0.3%;
+    color:white;
+    background: blue; /* Цвет фона */
+    border: 1px solid blue; /* Белая рамка */
+    border-radius: 5px;
+    border-width: 5px;
+    width: 25px;
+    cursor: pointer;
+
+}
+
+#page {
+    text-align:left;
+    top: 83.5%;
+    left: 12%;
+    width: 76%;
+    height: 5%;
+    opacity:1;
+}
+.modules {
+    position: absolute;
+    top: 20.75%;
+    left: 12.5%;
+    width: 75%;
+    height: 63.5%;
+    color: white;
+}
+.modulesimg {
+    width:48%;
+    height:100%;
+    background-color: black;
+}
+.modulesimg img {
+    border-radius: 10px;
+}
+.name {
+    left: 50%;
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    font-size: 150%;
+
+}
+.table {
+    top: 10%;
+    left: 50%;
+    width: 20%;
+    height: 90%;
+}
+table {
+
+    height: 100%;
+    width: 100%;
+}
+td {
+    border-collapse: collapse;
+    border: solid;
+    border-color: white;
+    text-align: center;
+}
+.text {
+    top: 10%;
+    left: 72%;
+    width: 28%;
+    height: 90%;
+    text-align: justify;
+    text-indent: 20px;
+}
+.content {                           /*КОНТЕНТ  */
+    position:relative;
+    float:left;
+    top: 17%;
+    left: 10.625%;
+    width: 22.5%;
+    height: 28%;
+    margin:1.875%;
+    background-color: black;
+}
+
+#avtor {
+    top: 93%;
+    width: 100%;
+    height: 7%;
+    text-align:center;
+    background: rgba(0, 0, 0, 0.6);
+    color:floralwhite;
+    border-radius: 0px;
+}
+#avtor p {
+    position: relative;
+    left:0px
+}
+ p {
+     bottom: 0px;
+     position:absolute;
+     left:40%;
+     color: white;
+}
